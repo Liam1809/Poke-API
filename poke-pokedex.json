@@ -1,4 +1,5 @@
-[ {
+{
+  {
   "avg_spawns" : 69,
   "candy" : "Bulbasaur Candy",
   "candy_count" : 25,
@@ -2922,4 +2923,5 @@
   "type" : [ "Psychic" ],
   "weaknesses" : [ "Bug", "Ghost", "Dark" ],
   "weight" : "4.0 kg"
-} ]
+}
+}
