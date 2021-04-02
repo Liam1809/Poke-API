@@ -920,7 +920,7 @@
   },
   {
     "avg_spawns": 138,
-    "candy": "Nidoran ♀ (Female) Candy",
+    "candy": "Nidoran ♀ Candy",
     "candy_count": 25,
     "egg": "5 km",
     "height": "0.41 m",
@@ -930,7 +930,7 @@
       1.63,
       2.48
     ],
-    "name": "Nidoran ♀ (Female)",
+    "name": "Nidoran ♀",
     "next_evolution": [
       {
         "name": "Nidorina",
@@ -955,7 +955,7 @@
   },
   {
     "avg_spawns": 8.8,
-    "candy": "Nidoran ♀ (Female) Candy",
+    "candy": "Nidoran ♀ Candy",
     "candy_count": 100,
     "egg": "Not in Eggs",
     "height": "0.79 m",
@@ -975,7 +975,7 @@
     "num": "030",
     "prev_evolution": [
       {
-        "name": "Nidoran(Female)",
+        "name": "Nidoran",
         "num": "029"
       }
     ],
@@ -992,7 +992,7 @@
   },
   {
     "avg_spawns": 1.2,
-    "candy": "Nidoran ♀ (Female) Candy",
+    "candy": "Nidoran ♀ Candy",
     "egg": "Not in Eggs",
     "height": "1.30 m",
     "id": 31,
@@ -1001,7 +1001,7 @@
     "num": "031",
     "prev_evolution": [
       {
-        "name": "Nidoran(Female)",
+        "name": "Nidoran",
         "num": "029"
       },
       {
@@ -1025,7 +1025,7 @@
   },
   {
     "avg_spawns": 131,
-    "candy": "Nidoran ♂ (Male) Candy",
+    "candy": "Nidoran ♂ Candy",
     "candy_count": 25,
     "egg": "5 km",
     "height": "0.51 m",
@@ -1035,7 +1035,7 @@
       1.64,
       1.7
     ],
-    "name": "Nidoran ♂ (Male)",
+    "name": "Nidoran ♂",
     "next_evolution": [
       {
         "name": "Nidorino",
@@ -1060,7 +1060,7 @@
   },
   {
     "avg_spawns": 8.3,
-    "candy": "Nidoran ♂ (Male) Candy",
+    "candy": "Nidoran ♂ Candy",
     "candy_count": 100,
     "egg": "Not in Eggs",
     "height": "0.89 m",
@@ -1079,7 +1079,7 @@
     "num": "033",
     "prev_evolution": [
       {
-        "name": "Nidoran(Male)",
+        "name": "Nidoran",
         "num": "032"
       }
     ],
@@ -1096,7 +1096,7 @@
   },
   {
     "avg_spawns": 1.7,
-    "candy": "Nidoran ♂ (Male) Candy",
+    "candy": "Nidoran ♂ Candy",
     "egg": "Not in Eggs",
     "height": "1.40 m",
     "id": 34,
@@ -1105,7 +1105,7 @@
     "num": "034",
     "prev_evolution": [
       {
-        "name": "Nidoran(Male)",
+        "name": "Nidoran",
         "num": "032"
       },
       {
