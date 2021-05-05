@@ -2,52 +2,42 @@
   {
     "id": 1,
     "name": "Poke Ball",
-    "img": "https://www.serebii.net/itemdex/sprites/pgl/pokeball.png",
-    "description": "A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target."
+    "img": "https://www.serebii.net/itemdex/sprites/pgl/pokeball.png"
   }, {
     "id": 2,
     "name": "Great Ball",
-    "img": "https://www.serebii.net/itemdex/sprites/pgl/greatball.png",
-    "description": "A good, high-performance Poké Ball that provides a higher success rate for catching Pokémon than a standard Poké Ball."
+    "img": "https://www.serebii.net/itemdex/sprites/pgl/greatball.png"
   }, {
     "id": 3,
     "name": "Ultra Ball",
-    "img": "https://www.serebii.net/itemdex/sprites/pgl/ultraball.png",
-    "description": "An ultra-high-performance Poké Ball that provides a higher success rate for catching Pokémon than a Great Ball."
+    "img": "https://www.serebii.net/itemdex/sprites/pgl/ultraball.png"
   }, {
     "id": 4,
     "name": "Quick Ball",
-    "img": "https://www.serebii.net/itemdex/sprites/pgl/quickball.png",
-    "description": "A somewhat different Poké Ball that has a more successful catch rate if used at the start of a wild encounter."
+    "img": "https://www.serebii.net/itemdex/sprites/pgl/quickball.png"
   }, {
     "id": 5,
     "name": "Great Ball",
-    "img": "https://www.serebii.net/itemdex/sprites/pgl/greatball.png",
-    "description": "A good, high-performance Poké Ball that provides a higher success rate for catching Pokémon than a standard Poké Ball."
+    "img": "https://www.serebii.net/itemdex/sprites/pgl/greatball.png"
   }, {
     "id": 6,
     "name": "Safari Ball",
-    "img": "https://www.serebii.net/itemdex/sprites/pgl/safariball.png",
-    "description": "A special Poké Ball that was used in the Safari Zone in the Kanto region and in the Great Marsh in the Sinnoh region."
+    "img": "https://www.serebii.net/itemdex/sprites/pgl/safariball.png"
   }, {
     "id": 7,
     "name": "Premier Ball",
-    "img": "https://www.serebii.net/itemdex/sprites/pgl/premierball.png",
-    "description": "A somewhat rare Poké Ball that was made as a commemorative item used to celebrate an event of some sort."
+    "img": "https://www.serebii.net/itemdex/sprites/pgl/premierball.png"
   }, {
     "id": 8,
     "name": "Net Ball",
-    "img": "https://www.serebii.net/itemdex/sprites/pgl/netball.png",
-    "description": "A somewhat different Poké Ball that is more effective when attempting to catch Water- or Bug-type Pokémon."
+    "img": "https://www.serebii.net/itemdex/sprites/pgl/netball.png"
   }, {
     "id": 9,
     "name": "Nest Ball",
-    "img": "https://www.serebii.net/itemdex/sprites/pgl/nestball.png",
-    "description": "A somewhat different Poké Ball that becomes more effective the lower the level of the wild Pokémon."
+    "img": "https://www.serebii.net/itemdex/sprites/pgl/nestball.png"
   }, {
     "id": 10,
     "name": "Master Ball",
-    "img": "https://www.serebii.net/itemdex/sprites/pgl/masterball.png",
-    "description": "The best Poké Ball with the ultimate level of performance. With it, you will catch any wild Pokémon without fail."
+    "img": "https://www.serebii.net/itemdex/sprites/pgl/masterball.png"
   }
 ]
