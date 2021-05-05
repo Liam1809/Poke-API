@@ -17,8 +17,8 @@
     "img": "https://www.serebii.net/itemdex/sprites/pgl/quickball.png"
   }, {
     "id": 5,
-    "name": "Great Ball",
-    "img": "https://www.serebii.net/itemdex/sprites/pgl/greatball.png"
+    "name": "Friend Ball",
+    "img": "https://www.serebii.net/itemdex/sprites/pgl/friendball.png"
   }, {
     "id": 6,
     "name": "Safari Ball",
