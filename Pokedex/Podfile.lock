@@ -1,0 +1,34 @@
+PODS:
+  - Kingfisher (6.2.1)
+  - lottie-ios (3.2.1)
+  - SDWebImage (5.11.1):
+    - SDWebImage/Core (= 5.11.1)
+  - SDWebImage/Core (5.11.1)
+  - SDWebImageSwiftUI (2.0.2):
+    - SDWebImage (~> 5.10)
+  - SSSwiftUIGIFView (1.0.0)
+
+DEPENDENCIES:
+  - Kingfisher (~> 6.0)
+  - lottie-ios
+  - SDWebImageSwiftUI
+  - SSSwiftUIGIFView
+
+SPEC REPOS:
+  trunk:
+    - Kingfisher
+    - lottie-ios
+    - SDWebImage
+    - SDWebImageSwiftUI
+    - SSSwiftUIGIFView
+
+SPEC CHECKSUMS:
+  Kingfisher: e71c6fac2aebb1262888cabc2cb13d313362a48f
+  lottie-ios: 106e92eaf11fbed0a76590b4cdb9b5ec26123ff7
+  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
+  SDWebImageSwiftUI: 8a3923c95108312b03a599ec1498754af55a6819
+  SSSwiftUIGIFView: f109262cd0baff190b58b519c0e94f7622c428d4
+
+PODFILE CHECKSUM: 1dbc37c9a673eabe77976aed7537a4df23367687
+
+COCOAPODS: 1.10.1

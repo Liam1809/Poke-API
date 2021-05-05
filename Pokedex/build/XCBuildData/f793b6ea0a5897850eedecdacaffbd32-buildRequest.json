@@ -1,0 +1,54 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "911997ced94e463838c08e6b86ed021d7add8fbbd12553af2fc6f71a250cc7d9"
+    },
+    {
+      "guid" : "911997ced94e463838c08e6b86ed021d88c0403892208c25b424292bc9317a81"
+    },
+    {
+      "guid" : "911997ced94e463838c08e6b86ed021dc46180aea4e87057640961e6db37df0d"
+    },
+    {
+      "guid" : "911997ced94e463838c08e6b86ed021d0aa1b5097be9e828066adcb2595f636c"
+    },
+    {
+      "guid" : "911997ced94e463838c08e6b86ed021dde9502294f7d229b8640e97134a4c2e7"
+    },
+    {
+      "guid" : "911997ced94e463838c08e6b86ed021dfa2e43183734e48231e71168c0841a74"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/hkhanhlam99/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/hkhanhlam99/Library/Developer/Xcode/DerivedData/Pods-eforcozfhmgsiqbqwerusoughmen/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/hkhanhlam99/Library/Developer/Xcode/DerivedData/Pods-eforcozfhmgsiqbqwerusoughmen/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Release",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : false,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : false
+}

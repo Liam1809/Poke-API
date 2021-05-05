@@ -1,0 +1,13 @@
+Target dependency graph (6 targets)
+Kingfisher in Pods
+SDWebImage in Pods
+SDWebImageSwiftUI in Pods, depends on:
+SDWebImage in Pods (explicit)
+SSSwiftUIGIFView in Pods
+lottie-ios in Pods
+Pods-Pokedex in Pods, depends on:
+Kingfisher in Pods (explicit)
+SDWebImage in Pods (explicit)
+SDWebImageSwiftUI in Pods (explicit)
+SSSwiftUIGIFView in Pods (explicit)
+lottie-ios in Pods (explicit)
