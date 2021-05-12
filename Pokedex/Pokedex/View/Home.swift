@@ -59,13 +59,8 @@ struct Home: View {
                         .padding(.all)
                 }
             }.frame(width: 300, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-            
-            
-            
             Spacer(minLength: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/)
         }
-       
-        }
-        
+        }  
 }
 

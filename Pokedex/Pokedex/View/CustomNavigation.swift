@@ -4,8 +4,10 @@
 //
 //  Created by Liam on 02/04/2021.
 //
-
+// This screen for navigation between screens and navigation bar
 import SwiftUI
+
+let navigationTabs = ["house", "pokeball", "magnifyingglass", "heart.circle.fill", "questionmark.circle.fill"]
 
 struct CustomNavigation: View {
     @State var selectedNavTab = "house"
@@ -15,13 +17,13 @@ struct CustomNavigation: View {
     @State var favouriteBall : [PokeballDetails] =  [PokeballDetails(name: "Poke Ball", img: "https://www.serebii.net/itemdex/sprites/pgl/pokeball.png", description: "A device for catching wild Pokémon. It's thrown like a ball at a Pokémon, comfortably encapsulating its target.")]
     var body: some View {
         ZStack(alignment: Alignment(horizontal: .center, vertical: .bottom)){
-            
+            // tab view between screens
             TabView(selection: $selectedNavTab) {
                 
                 Home(favouriteBall: $favouriteBall, favouriteList: $favouriteList).tag("house")
                 
                 Pokeballs(favouriteBall: $favouriteBall)
-                    .tag("p.circle")
+                    .tag("pokeball")
                 
                 Pokedex(favouriteList: $favouriteList)
                     .padding(.horizontal, 25)
@@ -35,13 +37,12 @@ struct CustomNavigation: View {
             .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
             .ignoresSafeArea(.all, edges: .bottom)
             
-            
+            // showing navigation bar
             HStack{
                 ForEach(navigationTabs, id: \.self) {
                     Navtab in
                     navTab(navTab: Navtab, selectedNavTab: $selectedNavTab)
                     Spacer(minLength: 0)
-                    
                 }
             }
             .padding(.horizontal,25)
@@ -57,8 +58,7 @@ struct CustomNavigation: View {
     }
 }
 
-let navigationTabs = ["house", "p.circle","magnifyingglass", "heart.circle.fill", "questionmark.circle.fill"]
-
+// navigation bar
 struct navTab: View {
     var navTab : String
     @Binding var selectedNavTab: String
@@ -66,11 +66,16 @@ struct navTab: View {
         Button(action: {
                 selectedNavTab = navTab
         } ) {
-            Image(systemName: navTab).font(.system(size:20))
-                .padding(.all)
-                .foregroundColor(selectedNavTab == navTab ? Color.blue.opacity(0.4) : Color.black.opacity(0.4))
-            
-                
+            if (navTab == "pokeball") {
+                Image(selectedNavTab == navTab ? "pokeball" : "pokeball2")
+                    .resizable()
+                    .frame(width: 20, height: 20, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                    .padding(.all)
+            } else {
+                Image(systemName: navTab).font(.system(size:20))
+                    .padding(.all)
+                    .foregroundColor(selectedNavTab == navTab ? Color.blue.opacity(0.4) : Color.black.opacity(0.4))
+            }
         }
     }
 }

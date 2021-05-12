@@ -8,6 +8,7 @@
 import SwiftUI
 import SSSwiftUIGIFView
 
+// this screen for showing app's info
 struct about: View {
     var body: some View {
     

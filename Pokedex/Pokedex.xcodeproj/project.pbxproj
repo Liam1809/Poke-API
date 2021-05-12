@@ -26,6 +26,7 @@
 		F1821B5C26430350001FE3F4 /* pokemonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1821B5326430350001FE3F4 /* pokemonCell.swift */; };
 		F1821B5F26430358001FE3F4 /* Pokeball.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1821B5D26430358001FE3F4 /* Pokeball.swift */; };
 		F1821B6026430358001FE3F4 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1821B5E26430358001FE3F4 /* Pokemon.swift */; };
+		F1AEBAF4264BFF1F0079D6E2 /* PokeballInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AEBAF3264BFF1F0079D6E2 /* PokeballInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		F1821B5326430350001FE3F4 /* pokemonCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pokemonCell.swift; sourceTree = "<group>"; };
 		F1821B5D26430358001FE3F4 /* Pokeball.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokeball.swift; sourceTree = "<group>"; };
 		F1821B5E26430358001FE3F4 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		F1AEBAF3264BFF1F0079D6E2 /* PokeballInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeballInfo.swift; sourceTree = "<group>"; };
 		F32C207CC0EC8EDC445CBB70 /* Pods-Pokedex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pokedex.debug.xcconfig"; path = "Target Support Files/Pods-Pokedex/Pods-Pokedex.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,6 +148,7 @@
 				F1821B5026430350001FE3F4 /* Pokedex.swift */,
 				F1821B5326430350001FE3F4 /* pokemonCell.swift */,
 				F1821B4B26430350001FE3F4 /* pokemonInfo.swift */,
+				F1AEBAF3264BFF1F0079D6E2 /* PokeballInfo.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 				F1821B4A2643033F001FE3F4 /* PokeballViewModel.swift in Sources */,
 				F1821B5426430350001FE3F4 /* pokemonInfo.swift in Sources */,
 				F1821B5926430350001FE3F4 /* Pokedex.swift in Sources */,
+				F1AEBAF4264BFF1F0079D6E2 /* PokeballInfo.swift in Sources */,
 				F1821B5526430350001FE3F4 /* CustomNavigation.swift in Sources */,
 				F1821B5626430350001FE3F4 /* Pokeballs.swift in Sources */,
 				F1821B6026430358001FE3F4 /* Pokemon.swift in Sources */,

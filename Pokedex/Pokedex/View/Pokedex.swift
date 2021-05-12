@@ -61,12 +61,6 @@ struct Pokedex: View {
                                         }
                                 }
                         }.padding(.bottom, 100)
-            
             }
-            
         }
-
-        
     }
-
-

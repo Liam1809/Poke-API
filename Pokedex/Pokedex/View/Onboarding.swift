@@ -21,8 +21,7 @@ struct Onboarding: View {
                 
                     SwiftUIGIFPlayerView(gifName: "Gif/pokeball")
                         .frame(width: 500, height: 500, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
-                        .padding(.all)
-                        
+                        .padding(.all)            
                     
                     SwiftUIGIFPlayerView(gifName: "Gif/pikachu")
                         .frame(width: 200, height: 150, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
@@ -48,12 +47,8 @@ struct Onboarding: View {
                         })
                 }
                 .offset(x: 0, y: -250)
-                
                 Spacer(minLength: /*@START_MENU_TOKEN@*/0/*@END_MENU_TOKEN@*/)
             }
-           
-            
-            
         }
         .padding(.all)
         .background(

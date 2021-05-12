@@ -8,6 +8,7 @@
 import SwiftUI
 import Kingfisher
 
+// this screen for favourite pokemons
 struct Favourites: View {
     @ObservedObject var viewModel = PokemonViewModel()
     

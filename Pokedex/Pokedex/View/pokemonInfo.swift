@@ -13,10 +13,6 @@ struct pokemonInfo: View {
    @State var pokemon : PokemonDetails
     
     @ObservedObject var viewModel = PokemonViewModel()
-    
-//    @AppStorage("toggled") var toggled = falses
-    
-    let heartIcon = Color(red: 250/255, green: 159/255, blue: 171/255)
 
     var body: some View {
         
