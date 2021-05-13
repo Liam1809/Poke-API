@@ -6,7 +6,6 @@ target 'Pokedex' do
   use_frameworks!
 
   # Pods for Poke
-  pod 'lottie-ios'
   pod 'SSSwiftUIGIFView'
   pod 'Kingfisher', '~> 6.0'
   pod 'SDWebImageSwiftUI'
